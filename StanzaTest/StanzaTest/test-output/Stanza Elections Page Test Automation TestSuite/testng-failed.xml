@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Stanza Elections Page Test Automation TestSuite]" guice-stage="DEVELOPMENT">
+  <test name="Stanza Elections Test Cases(failed)">
+    <classes>
+      <class name="com.stanza.automation.testcases.ElectionsPageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="enterDesiredAddressAndAddToCalendar"/>
+          <include name="checkFAQDropDownFunctionality"/>
+          <include name="checkAddressesAutoPopulation"/>
+        </methods>
+      </class> <!-- com.stanza.automation.testcases.ElectionsPageTest -->
+    </classes>
+  </test> <!-- Stanza Elections Test Cases(failed) -->
+</suite> <!-- Failed suite [Stanza Elections Page Test Automation TestSuite] -->

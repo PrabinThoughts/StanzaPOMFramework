@@ -1,0 +1,9 @@
+com\stanza\automation\testcases\ElectionsPageTest.class
+com\stanza\automation\ui\util\WebEventListener.class
+com\stanza\automation\testcases\ApplicationHomePageTest.class
+com\stanza\automation\ui\util\TestData.class
+com\stanza\automation\ui\util\TestUtil.class
+com\stanza\automation\ui\pages\ElectionsPage.class
+com\stanza\automation\ui\basetest\TestBase.class
+com\stanza\automation\ui\pages\ApplicationHomePage.class
+com\stanza\automation\testcases\TestCasesHelper.class

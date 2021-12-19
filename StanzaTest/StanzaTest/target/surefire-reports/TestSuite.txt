@@ -1,0 +1,19 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 18.921 sec <<< FAILURE!
+checkAddressesAutoPopulation(com.stanza.automation.testcases.ElectionsPageTest)  Time elapsed: 0.008 sec  <<< FAILURE!
+java.lang.NoSuchMethodError: 'void org.openqa.selenium.support.PageFactory.initElements(org.openqa.selenium.WebDriver, java.lang.Object)'
+	at com.stanza.automation.ui.pages.ElectionsPage.<init>(ElectionsPage.java:99)
+	at com.stanza.automation.testcases.ElectionsPageTest.checkAddressesAutoPopulation(ElectionsPageTest.java:48)
+
+enterDesiredAddressAndAddToCalendar(com.stanza.automation.testcases.ElectionsPageTest)  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.NoSuchMethodError: 'void org.openqa.selenium.support.PageFactory.initElements(org.openqa.selenium.WebDriver, java.lang.Object)'
+	at com.stanza.automation.ui.pages.ElectionsPage.<init>(ElectionsPage.java:99)
+	at com.stanza.automation.testcases.ElectionsPageTest.enterDesiredAddressAndAddToCalendar(ElectionsPageTest.java:79)
+
+checkFAQDropDownFunctionality(com.stanza.automation.testcases.ElectionsPageTest)  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.NoSuchMethodError: 'void org.openqa.selenium.support.PageFactory.initElements(org.openqa.selenium.WebDriver, java.lang.Object)'
+	at com.stanza.automation.ui.pages.ElectionsPage.<init>(ElectionsPage.java:99)
+	at com.stanza.automation.testcases.ElectionsPageTest.checkFAQDropDownFunctionality(ElectionsPageTest.java:108)
+
