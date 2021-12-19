@@ -61,7 +61,7 @@ An excel file named `StanzaUIAutomationTestCases.xlxs` for  manual test cases is
 
 ## Automation Test cases 
 
-There are 2 classes containing different test cases inside `com.backbase.automation.testcases` under `src/test/java` folder.
+There are 2 classes containing different test cases inside `com.stanza.automation.testcases` under `src/test/java` folder.
 
   * `ElectionsPageTest` - Contains all test cases covering end to end flow. Where the ElectionsPage functionality is being tested.
   * `ApplicationHomePageTest` - The test cases are to be completed.Contains all test cases covering end to end flow. Where the HomePage functionality are to be tested.
@@ -88,7 +88,7 @@ All the codes are written under src/test/java.
     * `TestUtil`        - Contains all methods to take screenshots whenever a test case fails.
     * `WebEventListner` - It override all the methods and define certain useful Log statements which would be displayed/logged as the application under test is being run.
 
-* `com.stanza.automation.ui.pages`     - Contains `ApplicationMainPage` , `AddComputerPage` and `EditComputerPage` classes.
+* `com.stanza.automation.ui.pages`     - Contains `ElectionsPage` and `ApplicationHomePage` classes.
 
      * `ApplicationHomePage` - Contains all WebElements available in the Home page of the application.  
      * `ElectionsPage`    - Contains all WebElements available in the Elections page of the application. 
